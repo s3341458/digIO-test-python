@@ -8,7 +8,8 @@ This project is for my DigIO test
 
 This solution was written with python3 with all the dependencies listed in
 [requirement.txt](https://github.com/s3341458/digIO-test-python/blob/master/requirements.txt),
-please use any dependency manager you like(eg [pipenv](https://pipenv-fork.readthedocs.io/en/latest/))
+please use any dependency manager(eg. [pipenv](https://pipenv-fork.readthedocs.io/en/latest/))
+you like
 
 ### Run parser on a log file:
 

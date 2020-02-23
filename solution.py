@@ -48,7 +48,7 @@ log_parser = re.compile(LOG_REGEX)
 parse_log_line = ParseFunction(log_parser)
 
 if __name__ == "__main__":
-    # ensure log_path can be provided as a input
+    # ensure log_path can be provided as an input
     arg_parser = argparse.ArgumentParser(description="Digio Test Solution.")
     arg_parser.add_argument("log_path", type=str, help="Log file location")
     args = arg_parser.parse_args()
