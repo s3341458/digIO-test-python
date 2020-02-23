@@ -1,0 +1,13 @@
+version: '3'
+
+services:
+  solution:
+    build:
+      context: ./
+    image: chengyu0316/digio_log_test
+    entrypoint: ['python', 'solution.py']
+  test:
+    build:
+      context: ./
+    image: chengyu0316/digio_log_test
+    command: ['pytest']
